@@ -87,7 +87,7 @@ public class AddressBookControllerTest {
     }
 
     @Test
-    void givenAEmployeeId_whenDeleteEmployeeDetailsCalled_shouldDeleteTheEmployee() {
+    void givenAAddressId_whenDeleteAddressDetailsCalled_shouldDeleteTheAddress() {
         String successString = "Address deleted successfully";
         int id = 1;
         when(addressBookService.deleteAddress(id)).thenReturn(successString);
