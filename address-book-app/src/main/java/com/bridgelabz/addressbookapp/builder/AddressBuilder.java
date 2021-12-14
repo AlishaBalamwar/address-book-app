@@ -12,7 +12,7 @@ public class AddressBuilder {
     @Autowired
     private ModelMapper modelMapper;
 
-    public AddressBook buildEmployeeEntity(AddressBookDto addressBookDto, AddressBook addressBook) {
+    public AddressBook buildAddressEntity(AddressBookDto addressBookDto, AddressBook addressBook) {
         modelMapper.map(addressBookDto, addressBook);
         return addressBook;
     }
